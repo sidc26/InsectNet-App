@@ -1,6 +1,8 @@
 # for additional pywaggle install options, see: https://github.com/waggle-sensor/pywaggle#installation-guides
 pywaggle[vision]==0.56.0
-pandas
+pandas==2.3.3
+numpy<2
 Pillow
-numpy
+opencv-python==4.11.0.86
+# Note: torch, torchvision, torchaudio are installed architecture-specifically in Dockerfile
 
